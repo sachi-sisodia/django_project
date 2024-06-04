@@ -149,3 +149,21 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+
+CSRF_TRUSTED_ORIGINS = ['https://django-project-1-lakt.onrender.com']
+
+CORS_REPLACE_HTTPS_REFERER = True
+
+CSRF_COOKIE_DOMAIN = 'onrender.com'
+
+CORS_ORIGIN_WHITELIST = (
+    'https://django-project-1-lakt.onrender.com',
+    'django-project-1-lakt.onrender.com',
+    'onrender.com',
+)
